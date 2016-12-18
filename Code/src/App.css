@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+/**  Basic Page CSS **/
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+  background-color: #337ab7;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+.react-container {
+  background: white;
+  padding: 30px 0;
+}
+
+/* Interface Styles */
+.list-addheading {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+.panel-heading > .table, .panel-heading > .table th {
+    margin:0px;
+    border: 0px;
+    border-bottom: none;
+}
+.table>thead>tr>th {
+  border-bottom: none !important;
+}
+.table > thead > tr > th {
+  border-bottom: none !important;
+}
+.green-boxed {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  box-shadow: 5px 5px 2px #888888;
+}
+.red-boxed {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}
+.blue-boxed {
+  width: 200px;
+  height: 200px;
+  border: 2px solid blue;
+  box-shadow: 5px 5px 2px #888888;
+}
+.grey-boxed {
+  width: 200px;
+  height: 200px;
+  border: 2px solid grey;
+}
+
+.ltext-pad {
+  padding-left: 5px;
+}
+
+div.image {
+  position: relative; 
+  width: 100%;/* for IE 6 */
+}
+
+.image h3 {
+  position: absolute; 
+  bottom: 5px; 
+  left: 100px; 
+  width: 100%; 
+}
+.image small {
+  position: absolute; 
+  bottom: 5px; 
+  left: 80px; 
+  width: 100%; 
+}
+
+h6.data1 {
+  position: absolute; 
+  bottom: 20px; 
+  left: 80px; 
+  width: 100%;
+}
+
+h6.data2 {
+  position: absolute; 
+  bottom: 75px; 
+  left: 67px; 
+  width: 100%;
+}
+
+h6.data3 {
+  position: absolute; 
+  bottom: 20px; 
+  left: 50px; 
+  width: 100%;
+}
+
+h6.data4 {
+  position: absolute; 
+  bottom: 70px; 
+  left: 70px; 
+  width: 100%;
+}
+
+small.tests {
+  line-height: 0.5;
+}
+
+/* Div acting like a box */
+div.box {
+  padding: 4px;
+  margin: auto;
+  width: 90%;
+  position: relative;
+  bottom: 0;
+}
+
+.result {
+  text-align: center;
+  margin: 0 auto;
+}
