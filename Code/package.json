@@ -7,11 +7,13 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "d3": "^3.5.17",
     "jquery": "^3.1.1",
-    "react": "^15.4.1",
+    "react": "^15.6.2",
     "react-bootstrap": "^0.30.7",
     "react-d3-basic": "^1.6.11",
-    "react-dom": "^15.4.1"
+    "react-dom": "^15.6.2",
+    "react-simple-pie-chart": "^0.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
